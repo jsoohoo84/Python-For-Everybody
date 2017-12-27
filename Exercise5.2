@@ -1,0 +1,25 @@
+
+#Exercise 2: 
+#Write another program that prompts for a list of numbers as above and at the end prints out both the maximum and minimum of the numbers instead of the average.
+
+largest = None
+smallest = None
+
+while True:
+    try:
+        num = input("Enter a number: ")    
+        if num == "done": break
+        if len(num) < 1: break 
+        new = int(num)
+        if largest is None or largest < new:
+            largest = new
+            #print (largest)
+        elif smallest is None or smallest > new:
+                smallest = new
+            #print (smallest)
+    except:
+        print ("Invalid input")
+        #continue
+
+print("Maximum is", largest)
+print("Minimum is", smallest)
