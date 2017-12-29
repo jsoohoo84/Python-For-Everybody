@@ -1,2 +1,5 @@
 # Python-For-Everyone
-Python For Everyone Exercises
+Python For Everyone 
+Chapters and Exercises
+Answers and Notes
+
