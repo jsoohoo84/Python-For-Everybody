@@ -1,0 +1,23 @@
+#Exercise 5: Take the following Python code that stores a string:`
+
+#str = 'X-DSPAM-Confidence:0.8475'
+
+#Use find and string slicing to extract the portion of the string after the colon character and then use the float function to convert the extracted string into a floating point number.
+
+#data = 'X-DSPAM-Confidence:0.8475 '
+#atpos = data.find(':')
+#print(atpos)
+#sppos = data.find(' ', atpos)
+#print(sppos)
+#host = data[atpos+1:sppos]
+#print(host)
+#float(host)
+#print(host)
+
+data = 'X-DSPAM-Confidence:  0.8475'
+
+pos = data.find(' ')
+print(pos)
+
+num = float(data[pos+1:])
+print(num)
