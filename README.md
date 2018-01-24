@@ -1,6 +1,6 @@
-# Python-For-Everyone
+# Python-For-Everbody
 #
-Python For Everyone 
+Python For Everybody 
 #
 Chapters and Exercises
 #
