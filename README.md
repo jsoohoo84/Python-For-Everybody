@@ -1,6 +1,6 @@
 # Python-For-Everbody
 #
-Python For Everybody 
+Python For Everybody Repo
 #
 Chapters and Exercises
 #
